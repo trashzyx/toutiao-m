@@ -2,10 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 Vue.use(Router)
+const routers = []
 
-export default new Router({
-  // 路由表
-  routes: [
-
-  ]
+const router = new Router({
+  routers
 })
+
+export default router
